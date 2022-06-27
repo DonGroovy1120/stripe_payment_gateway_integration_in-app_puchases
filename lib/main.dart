@@ -5,7 +5,7 @@ import 'home_screen_behavior.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  Stripe.publishableKey = 'pk_test_51LEGX7A0pvbOz3WZlJQdvGbiSHWPxp6HKHuXDiM4qmV38TNt3on7acIy3i3Yf8Pxfd5T9dxArEvCbMCKq6xUlsde00KCZytbv9';
+  Stripe.publishableKey = 'give your publish key from your stripe account dashboard';
 
   runApp(const MaterialApp(
     title: 'Stripe payment gateway integration',
@@ -35,8 +35,8 @@ class _MyAppState extends State<MyApp> with HomeBehavior {
           },
           options: Options(
               headers: {
-                //usama Stripe account secret is here after Bearer
-                'Authorization': 'Bearer sk_test_51LEGX7A0pvbOz3WZnISs7VVFc67zdLVwbvBYT8K4ewhbUBoIzF2bpj4p9IomOyqBqfCemQmOgrIVmnCCskYgHiDl00isWi4hAi',
+                //use Stripe account secret key is here after Bearer
+                'Authorization': 'Bearer user secrete key',
                 'Content-Type': 'application/x-www-form-urlencoded'
               })
       );
