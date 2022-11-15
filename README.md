@@ -1,8 +1,12 @@
 # Stripe Payment gateway integration - Flutter
 
-This is demo project with full payment gateway integration in Flutter. I have Properly handle the user cancel payment operations and payment successfull operations.
+This is a project with full payment gateway integration (Stripe) in Flutter. I have Properly handle the user payment cancel operations and payment successfull operations.
 
-## Adding card details
+✔️ Sound NullSafety
+
+# screenshots
+
+ ## Adding card details
 
 <p align="center">
   <img 
@@ -11,7 +15,7 @@ This is demo project with full payment gateway integration in Flutter. I have Pr
     src="https://user-images.githubusercontent.com/101565812/175897064-99d20e6e-5ad0-4ef1-b4d3-262750c14f71.jpg" >
 </p>
 
-## After Adding card details
+ ## After Adding card details
 
 <p align="center">
   <img 
@@ -20,7 +24,7 @@ This is demo project with full payment gateway integration in Flutter. I have Pr
     src="https://user-images.githubusercontent.com/101565812/175897163-f46e7799-ada9-43d7-b8ca-fb8d37faec4d.jpg" >
 </p>
 
-## Processing the payment
+ ## Processing the payment
 
 <p align="center">
   <img 
@@ -29,7 +33,7 @@ This is demo project with full payment gateway integration in Flutter. I have Pr
     src="https://user-images.githubusercontent.com/101565812/175897961-fb92c11b-774a-4a37-9e2b-d4923fe644d1.jpg" >
 </p>
 
-## Successfully payment deduction from customer
+ ## Successfully payment deduction from customer
 
 <p align="center">
   <img 
